@@ -28,7 +28,7 @@ from gtts import gTTS
 
 colorama.init()
 Client = discord.Client()
-Client = commands.Bot(description='DABABY', command_prefix="-", self_bot=False, bot=True)
+Client = commands.Bot(description='Selfbot', command_prefix="-", self_bot=True)
 Client.remove_command("help")
 
 languages = {
@@ -414,4 +414,4 @@ async def nuke(ctx, category=None):
        await ctx.send(embed=embed)
        
 
-Client.run("ODE3MjY2OTk2MDIxNTU5MzA2.YEHBMw.Ed4hJBsTmDeXWniOmgHkgT6wQ70")
+Client.run("TOKEN HERE")
